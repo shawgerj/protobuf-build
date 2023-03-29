@@ -28,3 +28,7 @@ bitflags = "1.2"
 
 [workspace]
 members = ["tests"]
+
+[patch.crates-io]
+protobuf = { git = "https://github.com/shawgerj/rust-protobuf", branch = "v2.8" }
+protobuf-codegen = { git = "https://github.com/shawgerj/rust-protobuf", branch = "v2.8" }
